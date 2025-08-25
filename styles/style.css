@@ -45,6 +45,12 @@ section {
     margin-top: 130px;
 }
 
+.section-title {
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+
 
 /* ----header styles----- */
 
@@ -81,10 +87,6 @@ section {
     margin-bottom: 50px;
 }
 
-.banner-title {
-    font-size: 3.3rem;
-    font-weight: 700;
-}
 
 .btn-primary {
     color: #FFFFFF;
@@ -146,19 +148,100 @@ section {
     font-weight: 600;
 }
 
+/* features section styles */
+
+/* features card design styles */
+
+
+#featers-bar {
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+.card-container {
+    max-width: 540px;
+    margin-bottom: 20px;
+}
+
+.feature-card {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.card-title {
+    color: #131313;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+/* features img desing */
+
+.features-img-container {
+    margin-left: 130px;
+
+}
+
+.features-img-container img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#experience-badge {
+    padding: 40px;
+    margin-left: -85px;
+    margin-top: -100px;
+}
+
+.badge-year {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.features-img-container img {
+    width: 100%;
+}
+
+.badge-experience {
+    font-size: 1.5rem;
+    font-weight: 500px;
+}
+
 
 /* ---------responsive styles------- */
 
 @media screen and (max-width:576px) {
 
     .navigation,
-    .teams {
+    .teams,
+    .features {
         flex-direction: column;
 
     }
 
     .team-content {
         margin-left: 24px;
+    }
+
+    .features-img-container {
+        margin-left: 0px;
+    }
+
+    .features-title {
+        font-size: 30px;
+    }
+
+    #experience-badge {
+        margin-top: 0;
+        margin-left: 0;
     }
 
 }
@@ -169,7 +252,8 @@ section {
         padding: 0px 30px;
     }
 
-    .teams {
+    .teams,
+    .features {
         flex-direction: column;
     }
 
@@ -181,4 +265,19 @@ section {
     .team-title {
         margin: 30px 0px;
     }
+
+    .card-container {
+        max-width: 100%;
+    }
+
+    .features-img-container {
+        margin-left: 0px;
+    }
+
+    #experience-badge {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
 }
