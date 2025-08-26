@@ -157,9 +157,12 @@ section {
     border-left: 5px solid #FF900E;
     padding-left: 15px;
     margin-top: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
+.feateures-des {
+    margin-bottom: 50px;
+}
 
 .card-container {
     max-width: 540px;
@@ -186,6 +189,7 @@ section {
 
 .features-img-container {
     margin-left: 130px;
+    margin-top: 35px;
 
 }
 
@@ -300,6 +304,23 @@ section {
     width: 140px;
 }
 
+
+/* ------footer section styles------ */
+
+footer {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    text-align: center;
+    border-radius: 20px;
+}
+
+.footer-content {
+    padding: 40px;
+}
+
 /* ---------responsive styles------- */
 /* ---------responsive styles------- */
 
@@ -388,6 +409,11 @@ section {
     .teams,
     .features {
         flex-direction: column;
+    }
+
+    .feateures-des {
+        width: 78%;
+        margin-left: 10px;
     }
 
     .team-content {
